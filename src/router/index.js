@@ -3,10 +3,10 @@ import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-//  scrollBehavior(to, from, savedPosition) {
-//     // 返回到顶部
-//     return { top: 0 };
-//   },
+ scrollBehavior(to, from, savedPosition) {
+    // 返回到顶部
+    return { top: 0 };
+  },
   routes: [
     {
       path: '/',
